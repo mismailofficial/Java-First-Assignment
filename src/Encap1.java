@@ -1,3 +1,5 @@
+import java.time.Clock;
+
 class Student {
     public static Student newStudent() {
         return new Student("Ali");
@@ -42,6 +44,5 @@ public class Encap1 {
 //        System.out.println(s2.getName());
 //
 //        Student s3 = Student.newStudent();
-        System.out.println(Clock.newClock().toString());
     }
 }
